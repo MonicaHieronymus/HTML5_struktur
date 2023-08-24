@@ -12,3 +12,15 @@ console.log(article1);
 
 const p = document.querySelector("p:last-child");
 console.log(p);
+
+const overskrift2 = document.querySelector("#overskrift");
+console.log(overskrift2);
+overskrift2.textContent = "Artikler";
+
+const underoverskrift1 = document.querySelector("#underoverskrift1");
+console.log(underoverskrift1);
+underoverskrift1.textContent = "City";
+
+const underoverskrift2 = document.querySelector("#underoverskrift2");
+console.log(underoverskrift2);
+underoverskrift2.textContent = "Cherry Blossom";
