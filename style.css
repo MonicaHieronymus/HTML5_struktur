@@ -1,0 +1,18 @@
+main img {
+  width: 100%;
+}
+
+footer,
+h1 {
+  text-align: center;
+}
+
+.a1,
+.a2 {
+  border-style: solid;
+  margin: 2rem;
+}
+
+h2 {
+  margin-left: 2rem;
+}
