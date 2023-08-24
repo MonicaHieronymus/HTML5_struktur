@@ -5,14 +5,22 @@ main img {
 footer,
 h1 {
   text-align: center;
+  border: 2px solid;
 }
 
 .a1,
 .a2 {
   border-style: solid;
-  margin: 2rem;
+  margin: 10px;
 }
 
 h2 {
-  margin-left: 2rem;
+  margin-left: 10px;
+}
+
+@media (min-width: 800px) {
+  .grid2-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
