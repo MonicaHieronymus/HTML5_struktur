@@ -24,3 +24,15 @@ underoverskrift1.textContent = "City";
 const underoverskrift2 = document.querySelector("#underoverskrift2");
 console.log(underoverskrift2);
 underoverskrift2.textContent = "Cherry Blossom";
+
+const img1 = document.querySelector("#img1");
+console.log(img1);
+img1.src =
+  "https://fastly.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI";
+img1.alt = "Accessories";
+
+const img2 = document.querySelector("#img2");
+console.log(img2);
+img2.src =
+  "https://fastly.picsum.photos/id/39/3456/2304.jpg?hmac=cc_VPxzydwTUbGEtpsDeo2NxCkeYQrhTLqw4TFo-dIg";
+img2.alt = "Pladespiller";
